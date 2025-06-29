@@ -1,0 +1,75 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  flex: 1;
+  padding: 24px;
+}
+
+.page-title {
+  margin-bottom: 24px;
+}
+
+.card {
+  margin-bottom: 24px;
+}
+
+.form-field {
+  margin-bottom: 16px;
+}
+
+.action-button {
+  margin-right: 8px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.chart-container {
+  height: 400px;
+  margin-bottom: 24px;
+}
+
+.currency-positive {
+  color: #10b981;
+}
+
+.currency-negative {
+  color: #ef4444;
+}
+
+.file-upload-container {
+  border: 2px dashed #e5e7eb;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.file-upload-container:hover {
+  border-color: #3b82f6;
+}
+
+.file-upload-container.dragging {
+  background-color: rgba(59, 130, 246, 0.1);
+  border-color: #3b82f6;
+}
+
+.notification {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 1000;
+}
+
+.footer {
+  padding: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+}
